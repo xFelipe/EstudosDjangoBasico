@@ -1,0 +1,14 @@
+pip install django
+django-admin startproject nome_projeto
+django-admin startproject nome_projeto .
+
+python manage.py startapp contas
+
+adicionar o nome do projeto na lista de "INSTALLED_APPS", no projeto principal
+
+python manage.py migrate  //Cria o banco de dados
+
+python manage.py runserver
+
+python manage.py makemigrations
+python manage.py migrate

@@ -1,0 +1,17 @@
+git init
+git status
+git add app.py
+git commit -m "Create a simple flask application"
+git remote add origin https://github.com/xFelipe/repositorio-teste.git
+git push
+git push --set-upstream origin master
+#ou git push -u origin master
+#ou git push
+
+gerar chave SSH
+ssh-keygen
+c:/Users/felipe/.ssh/id_rsa.pub
+
+
+#git remote remove origin
+#rm -rf .git
