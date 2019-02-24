@@ -10,6 +10,7 @@ class Categoria(models.Model):
     def __str__(self):
         return self.nome
 
+
 class Transacao(models.Model):
     data = models.DateTimeField()
     descricao = models.CharField(max_length=200)
